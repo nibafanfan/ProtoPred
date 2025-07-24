@@ -41,11 +41,6 @@ htmlcov/
 .tox/
 .hypothesis/
 
-# Documentation
-docs/_build/
-docs/_static/
-docs/_templates/
-
 # OS
 .DS_Store
 Thumbs.db
@@ -54,9 +49,24 @@ Thumbs.db
 *.xlsx
 *.json
 !examples/*.json
+!protopred-api/examples/*.json
 output_*
 
 # Log files
 *.log
+
+# Test scripts (keep only those in test directories)
 test_*.py
-!tests/test_*.py
+!protopred-api/tests/test_*.py
+
+# Unzipped example files (from script.zip)
+API-Request_ONTOXHub_json.py
+input.xlsx
+JSON_input.json
+request_body_API.json
+
+# Archive files
+*.zip
+
+# Temporary files
+get-pip.py

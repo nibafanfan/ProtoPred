@@ -46,7 +46,7 @@ class ProtoPREDClient:
         self.account_token = account_token
         self.account_secret_key = account_secret_key
         self.account_user = account_user
-        self.base_url = base_url.rstrip('/')
+        self.base_url = base_url  # Keep trailing slash for API endpoint
         self.timeout = timeout
         
         # Setup logging
