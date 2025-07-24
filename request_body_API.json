@@ -1,0 +1,30 @@
+{
+    "account_token": "1JX3LP",
+	"account_secret_key": "A8X9641JM",
+	"account_user": "OOntox",
+	"module": "ProtoPHYSCHEM",
+	"input_type": "SMILES_FILE",
+	"models_list": "model_phys:water_solubility, model_phys: melting_point",
+    "input_data": {
+            "ID_1": {
+                "SMILES": "C1=CC(=O)C=CC1=O",
+                "CAS": "",
+                "EC number": "",
+                "Structural formula": ""
+            },
+            "ID_2": {
+                "SMILES": "CCCCC",
+                "CAS": "10-66-0",
+                "Chemical name": "Pentane",
+                "EC number": "203-692-4",
+                "Structural formula": "C5H12"
+            },
+            "ID_3": {
+                "SMILES": "O=[N+]([O-])c1ccc2nc[nH]c2c1",
+                "CAS": "94-52-0",
+                "Chemical name": "6-nitro-1H-benzimidazole",
+                "EC number": "202-341-2",
+                "Structural formula": "C7H5N3O2"
+            }
+        }
+}

@@ -1,0 +1,11 @@
+2025-07-23 20:45:12 - protopred - INFO - ProtoPRED logging initialized - Log file: complete_test.log
+2025-07-23 20:45:12 - protopred - INFO - Mock ProtoPRED client initialized for user: OOntox
+2025-07-23 20:45:12 - protopred - INFO - Starting prediction - Module: ProtoPHYSCHEM, Models: ['model_phys:water_solubility']
+2025-07-23 20:45:12 - protopred - INFO - Single SMILES input: CCCCC
+2025-07-23 20:45:12 - protopred - INFO - Mock API call completed successfully
+2025-07-23 20:45:26 - protopred - INFO - ProtoPRED logging initialized - Log file: complete_test.log
+2025-07-23 20:45:26 - protopred - INFO - Mock ProtoPRED client initialized for user: OOntox
+2025-07-23 20:45:26 - protopred - INFO - Starting prediction - Module: ProtoPHYSCHEM, Models: ['model_phys:water_solubility']
+2025-07-23 20:45:26 - protopred - INFO - Single SMILES input: CCCCC
+2025-07-23 20:45:26 - protopred - INFO - Mock API call completed successfully
+2025-07-23 20:45:26 - protopred - INFO - Response contains 1 model results

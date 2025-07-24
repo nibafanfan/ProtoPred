@@ -1,0 +1,17 @@
+{
+    "mol_001": {
+        "SMILES": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+        "Chemical name": "Ibuprofen",
+        "CAS": "15687-27-1"
+    },
+    "mol_002": {
+        "SMILES": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "Chemical name": "Aspirin",
+        "CAS": "50-78-2"
+    },
+    "mol_003": {
+        "SMILES": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+        "Chemical name": "Caffeine",
+        "CAS": "58-08-2"
+    }
+}
