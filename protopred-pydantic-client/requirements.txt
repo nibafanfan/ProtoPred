@@ -1,0 +1,3 @@
+pydantic>=1.8.0
+requests>=2.25.0
+typing-extensions>=3.7.4

@@ -1,8 +1,9 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -19,54 +20,57 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
-# Virtual environments
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
 venv/
 ENV/
-env/
-.venv
+env.bak/
+venv.bak/
 
 # IDEs
-.vscode/
 .idea/
+.vscode/
 *.swp
 *.swo
 *~
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-.hypothesis/
-
-# OS
 .DS_Store
-Thumbs.db
 
-# Project specific
-*.xlsx
-*.json
-!examples/*.json
-!protopred-api/examples/*.json
-output_*
-
-# Log files
+# Logs
 *.log
+logs/
 
-# Test scripts (keep only those in test directories)
+# Local test files
 test_*.py
 !protopred-api/tests/test_*.py
-
-# Unzipped example files (from script.zip)
-API-Request_ONTOXHub_json.py
-input.xlsx
-JSON_input.json
-request_body_API.json
-
-# Archive files
-*.zip
+!protopred-pydantic-client/tests/test_*.py
 
 # Temporary files
-get-pip.py
+*.tmp
+*.bak
+.~*
+
+# Excel files (test outputs)
+*.xlsx
+!protopred-api/work/input.xlsx
+
+# Archives
+archive_*/
